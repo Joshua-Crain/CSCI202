@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* color palette:
+** blueish-gray #373e43
+** 
+*/
+
+html {
+    color: #ffffff;
+}
+
+body {
+    font-family: Economica, sans-serif;
+    background-repeat: no-repeat;
+    background-color: #373e43;
+}
+
+#wrapper {
+    margin: 0 5%;
+}
+
+#homeLayout {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#homeLayout a {
+    color: aqua;
+    text-decoration: none;
+}
+
+#homeLayout a:hover {
+    color: rgb(0, 190, 255);
+    text-decoration: underline;
+}
